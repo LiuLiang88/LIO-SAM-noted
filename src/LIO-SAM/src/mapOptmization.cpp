@@ -148,7 +148,7 @@ public:
         ISAM2Params parameters;
         parameters.relinearizeThreshold = 0.1;
         parameters.relinearizeSkip = 1;
-        isam = new ISAM2(parameters); // 初始化isam2优化器
+        isam = new ISAM2(parameters); // 初始化isam2优化
 
         pubKeyPoses = nh.advertise<sensor_msgs::PointCloud2>("lio_sam/mapping/trajectory", 1);
         pubLaserCloudSurround = nh.advertise<sensor_msgs::PointCloud2>("lio_sam/mapping/map_global", 1);
