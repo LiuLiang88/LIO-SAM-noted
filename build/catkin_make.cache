@@ -1,0 +1,2 @@
+LIO-SAM
+-DCATKIN_DEVEL_PREFIX=/home/liu/lio-sam/devel -DCMAKE_INSTALL_PREFIX=/home/liu/lio-sam/install -G Unix Makefiles
